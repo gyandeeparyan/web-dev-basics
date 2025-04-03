@@ -1,0 +1,19 @@
+.heading , .content{
+    
+    color: red;
+    font-size: 70px;
+    font-style: italic;
+}
+
+h1,div{
+border: 5px blue ;
+border-radius: 20px;  
+}
+
+#heading , #footer{
+   font: italic darkgreen 70px 
+}
+
+
+
+
