@@ -1,0 +1,28 @@
+.progress-container {
+    width: 100%;
+    height: 20px;
+    background-color: #e0e0e0;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .progress-bar {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 0;
+    background-color: #3b82f6; /* Tailwind blue-500 */
+    animation: fillProgress 5s infinite ;
+    border-radius: 10px 0 0 10px;
+  }
+  
+  @keyframes fillProgress {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+  
