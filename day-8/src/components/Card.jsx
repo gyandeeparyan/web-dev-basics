@@ -19,7 +19,7 @@ const Card = ({imgUrl,title}) => {
               className='flex w-[25%] rounded-2xl px-2 py-1 border-2 bg-white'>
               Click
             </button>
-            <h1 className='font-bold'>{props.title}</h1>
+            <h1 className='font-bold'>{title}</h1>
             <p>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit.
               Voluptas!
